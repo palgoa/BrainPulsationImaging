@@ -1,2 +1,12 @@
-# BrainPuls
-Analysis pipelines for very-short TR whole-brain MR images to study brain pulsation 
+# Brain Pulsation Imaging 
+This repository contains example code that can be used to replicate parts of the simulations reported in the following paper:
+Brain Pulsation Imaging using non-balanced Steady-state Free Precession with 3D-EPI readout.
+DOI:10.1002/mrm.70156
+
+How to use the code:
+1. Download the two matlab-files.
+2. Modify the settings in the EPG_brainpulsation_script.m to your needs.
+3. Run the script.
+
+
+
