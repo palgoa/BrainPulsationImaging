@@ -27,18 +27,18 @@ sim.T2 = 1.0; % Spijkerman 2018
 % Period of sinusoidal displacement:
 sim.RR = 1.0; % [sec]
 % Amplitude of sinusoidal displacement:
-sim.Xx = [0.1e-3]; % [m]
+sim.Xx = [5e-3]; % [m]
 
 %% Sequence parameters
 sim.TR = 10e-3; % [sec]
 sim.FA = 20;    % [deg] 
 % Gradient spoiler moments (values are correct for the 3D-EPI sequence used in
 % brainpulsation imaging paper for 2pi zero order moment
-sim.M0 = 7.339e-6; %2pi zero order moment
-sim.M1 = 68.7e-9;  %
+sim.M0 = 7.339e-6; % [Ts/m]
+sim.M1 = 68.7e-9;  % [Ts^2/m]
 
 %% EPG Parameters:
-sim.np = round(5*sim.RR./sim.TR); % 5 times the oscillation period.
+sim.np = round(5*sim.T1/sim.TR); % At least 5 times T1 to reach "steady state"
 
 %% Run simulation
 [S1 S2 X V] = EPG_nbSSFP_brainpulsation_sinus(sim);
