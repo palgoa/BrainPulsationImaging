@@ -19,6 +19,11 @@ function [S1,S2,X,V]  = EPG_nbSSFP_brainpulsation_sinus(sim)
 % sim.FA - RF-pulse flip angle [deg] 
 % sim.np -duration of simulation (number of TR-periods).
 %
+% Outputs (vectors of values for each TR):
+% S1 = FID signal at TE = 0;
+% S2 = ECHO signal at TR;
+% X  = Displacement [m]; 
+% V  = Velocity [m/s];
 % Pål Erik Goa NTNU 2025
 % pal.e.goa@ntnu.no
 %
