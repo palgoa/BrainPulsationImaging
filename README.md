@@ -10,5 +10,6 @@ How to use the code:
 
 Example Brain Pulsation Imaging Result (from Goa et al. Magn Reson Med 2025  https://doi.org/10.1002/mrm.70156):
 
-
+![Example BPI] 
+(https://github.com/palgoa/BrainPulsationImaging/blob/main/mrm70156-sup-0003-videos2.gif)
 
