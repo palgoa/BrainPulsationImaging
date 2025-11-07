@@ -27,7 +27,7 @@ sim.T2 = 1.0; % Spijkerman 2018
 % Period of sinusoidal displacement:
 sim.RR = 1.0; % [sec]
 % Amplitude of sinusoidal displacement:
-sim.Xx = [5e-3]; % [m]
+sim.Xx = [1e-3]; % [m]
 
 %% Sequence parameters
 sim.TR = 10e-3; % [sec]
